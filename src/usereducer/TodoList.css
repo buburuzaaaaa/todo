@@ -1,0 +1,30 @@
+body{
+    background-color:deepskyblue;
+}
+
+.task-list{
+
+}
+
+input{
+    border-radius: 5px;
+    border: none;
+    width: 15;
+    height: 2rem;
+    text-align: center;
+}
+button{
+    border-radius: 5px;
+    border: none;
+    height:2rem;
+    background-color: rgb(235, 50, 50);
+    font-weight: bolder;
+}
+
+select{
+    background-color: white;
+    height: 2rem;
+    border-radius: 5px;
+    font-weight: bolder;
+    border: none;
+}
