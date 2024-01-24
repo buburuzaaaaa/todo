@@ -1,10 +1,11 @@
 body{
-    background-color:deepskyblue;
+    background-color:white;
+    text-align: center;
 }
 
-.task-list{
+/* .task-list{
 
-}
+} */
 
 input{
     border-radius: 5px;
@@ -12,12 +13,13 @@ input{
     width: 15;
     height: 2rem;
     text-align: center;
+    margin-top: 1rem;
 }
 button{
     border-radius: 5px;
     border: none;
     height:2rem;
-    background-color: rgb(235, 50, 50);
+    background-color: deeppink;
     font-weight: bolder;
 }
 
@@ -27,4 +29,17 @@ select{
     border-radius: 5px;
     font-weight: bolder;
     border: none;
+}
+
+.todo-list-container{
+    display: flex;
+    justify-content: center;
+    background-color: deepskyblue;
+    border-radius: 5px;
+    height: 30rem;
+    width: 60rem;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
