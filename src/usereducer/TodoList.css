@@ -1,11 +1,12 @@
 body{
-    background-color:white;
+    background-color: #3B373B;
     text-align: center;
 }
 
-/* .task-list{
-
-} */
+.task-list{
+/* margin-top: 2rem; */
+font-weight: bolder;
+}
 
 input{
     border-radius: 5px;
@@ -20,27 +21,52 @@ button{
     border-radius: 5px;
     border: none;
     height:2rem;
-    background-color: deeppink;
+    background-color: #0e3a53;
     font-weight: bolder;
+    color: white;
 }
 
 select{
-    background-color: white;
+    color: white;
+    background-color: #0e3a53;
     height: 2rem;
     border-radius: 5px;
     font-weight: bolder;
     border: none;
+    margin-right: .5rem;
 }
 
 .todo-list-container{
     display: flex;
     justify-content: center;
-    background-color: deepskyblue;
+    background-color: #DDDBDE;
     border-radius: 5px;
     height: 30rem;
     width: 60rem;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.add-task-form{
+    height: 4rem;
+}
+
+.con{
+    display: flex;
+    flex-direction: column;
+}
+
+.category-management{
+    margin-left: .5rem;
+}
+
+ul{
+    list-style: none;
+}
+button{
+    margin-right: .15px;
+    margin-left: .5rem;
+    font-weight: bolder;
 }
